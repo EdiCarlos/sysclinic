@@ -1,0 +1,9 @@
+D:\GITHUB\sysclinic\SysClinic\SsysClinic.View\bin\Debug\SsysClinic.View.exe.config
+D:\GITHUB\sysclinic\SysClinic\SsysClinic.View\bin\Debug\SsysClinic.View.exe
+D:\GITHUB\sysclinic\SysClinic\SsysClinic.View\bin\Debug\SsysClinic.View.pdb
+D:\GITHUB\sysclinic\SysClinic\SsysClinic.View\obj\Debug\SsysClinic.View.csprojResolveAssemblyReference.cache
+D:\GITHUB\sysclinic\SysClinic\SsysClinic.View\obj\Debug\SsysClinic.View.MdiPrincipal.resources
+D:\GITHUB\sysclinic\SysClinic\SsysClinic.View\obj\Debug\SsysClinic.View.Properties.Resources.resources
+D:\GITHUB\sysclinic\SysClinic\SsysClinic.View\obj\Debug\SsysClinic.View.csproj.GenerateResource.Cache
+D:\GITHUB\sysclinic\SysClinic\SsysClinic.View\obj\Debug\SsysClinic.View.exe
+D:\GITHUB\sysclinic\SysClinic\SsysClinic.View\obj\Debug\SsysClinic.View.pdb

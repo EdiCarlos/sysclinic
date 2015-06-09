@@ -1,0 +1,15 @@
+G:\GITHUB\sysclinic\sysclinic\SysClinic\SsysClinic.View\bin\Debug\SsysClinic.View.exe.config
+G:\GITHUB\sysclinic\sysclinic\SysClinic\SsysClinic.View\obj\Debug\SsysClinic.View.exe
+G:\GITHUB\sysclinic\sysclinic\SysClinic\SsysClinic.View\obj\Debug\SsysClinic.View.pdb
+G:\GITHUB\sysclinic\sysclinic\SysClinic\SsysClinic.View\bin\Debug\SsysClinic.View.exe
+G:\GITHUB\sysclinic\sysclinic\SysClinic\SsysClinic.View\bin\Debug\SsysClinic.View.pdb
+G:\GITHUB\sysclinic\sysclinic\SysClinic\SsysClinic.View\obj\Debug\SysClinic.View.csprojResolveAssemblyReference.cache
+G:\GITHUB\sysclinic\sysclinic\SysClinic\SsysClinic.View\obj\Debug\SysClinic.View.MdiPrincipal.resources
+G:\GITHUB\sysclinic\sysclinic\SysClinic\SsysClinic.View\obj\Debug\SsysClinic.View.Properties.Resources.resources
+G:\GITHUB\sysclinic\sysclinic\SysClinic\SsysClinic.View\obj\Debug\SysClinic.View.csproj.GenerateResource.Cache
+G:\GITHUB\sysclinic\sysclinic\SysClinic\SsysClinic.View\obj\Debug\SsysClinic.View.Mdi.frmSplash.resources
+G:\GITHUB\sysclinic\sysclinic\SysClinic\SsysClinic.View\obj\Debug\SsysClinic.View.Mdi.frmValidacao.resources
+G:\GITHUB\sysclinic\sysclinic\SysClinic\SsysClinic.View\bin\Debug\SysClinic.Bll.dll
+G:\GITHUB\sysclinic\sysclinic\SysClinic\SsysClinic.View\bin\Debug\SysClinic.Dto.dll
+G:\GITHUB\sysclinic\sysclinic\SysClinic\SsysClinic.View\bin\Debug\SysClinic.Bll.pdb
+G:\GITHUB\sysclinic\sysclinic\SysClinic\SsysClinic.View\bin\Debug\SysClinic.Dto.pdb

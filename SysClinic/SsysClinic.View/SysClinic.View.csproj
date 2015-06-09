@@ -45,6 +45,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Formularios.cs" />
+    <Compile Include="Mdi\frmSplash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mdi\frmSplash.Designer.cs">
+      <DependentUpon>frmSplash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mdi\frmValidacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mdi\frmValidacao.Designer.cs">
+      <DependentUpon>frmValidacao.cs</DependentUpon>
+    </Compile>
     <Compile Include="Mdi\MdiPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -53,6 +65,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Mdi\frmSplash.resx">
+      <DependentUpon>frmSplash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mdi\frmValidacao.resx">
+      <DependentUpon>frmValidacao.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Mdi\MdiPrincipal.resx">
       <DependentUpon>MdiPrincipal.cs</DependentUpon>
     </EmbeddedResource>
@@ -77,6 +95,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SysClinic.Bll\SysClinic.Bll.csproj">
+      <Project>{0bd22221-768b-4aa2-b2d7-69915d2cff12}</Project>
+      <Name>SysClinic.Bll</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SysClinic.Dto\SysClinic.Dto.csproj">
+      <Project>{337646cd-a203-4702-bb04-7b3bf319a576}</Project>
+      <Name>SysClinic.Dto</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

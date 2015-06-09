@@ -1,5 +1,4 @@
-﻿using SsysClinic.View.Mdi;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -17,7 +16,7 @@ namespace SysClinic.View
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmValidacao());
+            Application.Run(new MdiPrincipal());
         }
     }
 }

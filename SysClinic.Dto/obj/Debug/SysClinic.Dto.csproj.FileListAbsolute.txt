@@ -1,0 +1,10 @@
+G:\GITHUB\sysclinic\sysclinic\SysClinic\SysClinic.Dto\bin\Debug\SysClinic.Dto.dll
+G:\GITHUB\sysclinic\sysclinic\SysClinic\SysClinic.Dto\bin\Debug\SysClinic.Dto.pdb
+G:\GITHUB\sysclinic\sysclinic\SysClinic\SysClinic.Dto\obj\Debug\SysClinic.Dto.csprojResolveAssemblyReference.cache
+G:\GITHUB\sysclinic\sysclinic\SysClinic\SysClinic.Dto\obj\Debug\SysClinic.Dto.dll
+G:\GITHUB\sysclinic\sysclinic\SysClinic\SysClinic.Dto\obj\Debug\SysClinic.Dto.pdb
+D:\GITHUB\sysclinic\SysClinic\SysClinic.Dto\bin\Debug\SysClinic.Dto.dll
+D:\GITHUB\sysclinic\SysClinic\SysClinic.Dto\bin\Debug\SysClinic.Dto.pdb
+D:\GITHUB\sysclinic\SysClinic\SysClinic.Dto\obj\Debug\SysClinic.Dto.csprojResolveAssemblyReference.cache
+D:\GITHUB\sysclinic\SysClinic\SysClinic.Dto\obj\Debug\SysClinic.Dto.dll
+D:\GITHUB\sysclinic\SysClinic\SysClinic.Dto\obj\Debug\SysClinic.Dto.pdb

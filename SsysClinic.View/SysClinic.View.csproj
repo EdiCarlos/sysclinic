@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{75D8051B-7DA3-47A5-8994-652A244DB8B1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SsysClinic.View</RootNamespace>
+    <AssemblyName>SsysClinic.View</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Authorization\frmApresentacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Authorization\frmApresentacao.Designer.cs">
+      <DependentUpon>frmApresentacao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Authorization\frmPasswordValidacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Authorization\frmPasswordValidacao.Designer.cs">
+      <DependentUpon>frmPasswordValidacao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios.cs" />
+    <Compile Include="Splash\frmSplash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Splash\frmSplash.Designer.cs">
+      <DependentUpon>frmSplash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Authorization\frmValidacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Authorization\frmValidacao.Designer.cs">
+      <DependentUpon>frmValidacao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mdi\MdiPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mdi\MdiPrincipal.Designer.cs">
+      <DependentUpon>MdiPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SYSCLINICADataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SYSCLINICADataSet.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Authorization\frmApresentacao.resx">
+      <DependentUpon>frmApresentacao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Authorization\frmPasswordValidacao.resx">
+      <DependentUpon>frmPasswordValidacao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splash\frmSplash.resx">
+      <DependentUpon>frmSplash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Authorization\frmValidacao.resx">
+      <DependentUpon>frmValidacao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mdi\MdiPrincipal.resx">
+      <DependentUpon>MdiPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="SYSCLINICADataSet.xsc">
+      <DependentUpon>SYSCLINICADataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SYSCLINICADataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SYSCLINICADataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SYSCLINICADataSet.xss">
+      <DependentUpon>SYSCLINICADataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SysClinic.Bll\SysClinic.Bll.csproj">
+      <Project>{0bd22221-768b-4aa2-b2d7-69915d2cff12}</Project>
+      <Name>SysClinic.Bll</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SysClinic.Dto\SysClinic.Dto.csproj">
+      <Project>{337646cd-a203-4702-bb04-7b3bf319a576}</Project>
+      <Name>SysClinic.Dto</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
